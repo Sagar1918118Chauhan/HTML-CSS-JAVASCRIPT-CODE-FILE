@@ -30,6 +30,7 @@
            <p>Card Number:* <input type="text" name="cardnumber"></p>
            <p>Expiration Date:*input type="date" name="exp date" required></p>
            <p>CVV:*  <input type="number" name="cvv"></p>
+           <input type="submit" value="Pay now">
 
     </form></center>
 
