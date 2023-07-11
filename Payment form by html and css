@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form </title>
+</head>
+<body style=" background-color: rgb(127, 219, 255);">
+   <center> <form action="inex.php" style="background-color: aliceblue; margin: 20% 20% 20% 20%;">
+        <h1 style="color: rgba(0, 128, 77, 0.922);  ">User Detail:</h1>
+       <p>Name:* <input type="text" name="fulname"></p> <br>
+        
+        Gender:*  <input type="radio" name="gender">Male 
+       <input type="radio" name="gender">Female  
+        <input type="radio" name="gender">Other  <br>
+       <p>Address:*
+        <textarea name="address" id="address" cols="30" rows="10"></textarea>
+       </p>
+       <p>Mail: <input type="email" name="gmail"></p> <br>
+       <p>Pincode:* <input type="number" name="pincode"></p> <br>
+        <h1 style="color: rgba(0, 128, 77, 0.922);  ">Payment Details</h1>
+    
+        Card Type:* 
+         <select name="card-type" id="card-type">
+              <option value="  "> ---Select Card---</option>
+              <option value="Visa card">Visa Card</option>
+              <option value="Master card">Master Card</option>
+              <option value="Rupay">Rupay</option>
+            </select>
+           <p>Card Number:* <input type="text" name="cardnumber"></p>
+           <p>Expiration Date:*input type="date" name="exp date" required></p>
+           <p>CVV:*  <input type="number" name="cvv"></p>
+
+    </form></center>
+
+</body>
+</html>
